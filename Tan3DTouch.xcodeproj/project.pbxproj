@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		BA1BD7C01D02886E00AADA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BD7BF1D02886E00AADA14 /* AppDelegate.swift */; };
 		BA1BD7C21D02886E00AADA14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1BD7C11D02886E00AADA14 /* ViewController.swift */; };
-		BA1BD7C51D02886E00AADA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1BD7C31D02886E00AADA14 /* Main.storyboard */; };
-		BA1BD7C81D02886E00AADA14 /* Tan3DTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA1BD7C61D02886E00AADA14 /* Tan3DTouch.xcdatamodeld */; };
 		BA1BD7CA1D02886E00AADA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1BD7C91D02886E00AADA14 /* Assets.xcassets */; };
 		BA1BD7CD1D02886E00AADA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1BD7CB1D02886E00AADA14 /* LaunchScreen.storyboard */; };
+		BA6BA5E61D02CF4C005DDC05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BA5E51D02CF4C005DDC05 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA1BD7BC1D02886E00AADA14 /* Tan3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tan3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1BD7BF1D02886E00AADA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA1BD7C11D02886E00AADA14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA1BD7C41D02886E00AADA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA1BD7C71D02886E00AADA14 /* Tan3DTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tan3DTouch.xcdatamodel; sourceTree = "<group>"; };
 		BA1BD7C91D02886E00AADA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1BD7CC1D02886E00AADA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1BD7CE1D02886E00AADA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6BA5E51D02CF4C005DDC05 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +56,10 @@
 			children = (
 				BA1BD7BF1D02886E00AADA14 /* AppDelegate.swift */,
 				BA1BD7C11D02886E00AADA14 /* ViewController.swift */,
-				BA1BD7C31D02886E00AADA14 /* Main.storyboard */,
+				BA6BA5E51D02CF4C005DDC05 /* DetailViewController.swift */,
 				BA1BD7C91D02886E00AADA14 /* Assets.xcassets */,
 				BA1BD7CB1D02886E00AADA14 /* LaunchScreen.storyboard */,
 				BA1BD7CE1D02886E00AADA14 /* Info.plist */,
-				BA1BD7C61D02886E00AADA14 /* Tan3DTouch.xcdatamodeld */,
 			);
 			path = Tan3DTouch;
 			sourceTree = "<group>";
@@ -127,7 +124,6 @@
 			files = (
 				BA1BD7CD1D02886E00AADA14 /* LaunchScreen.storyboard in Resources */,
 				BA1BD7CA1D02886E00AADA14 /* Assets.xcassets in Resources */,
-				BA1BD7C51D02886E00AADA14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +136,13 @@
 			files = (
 				BA1BD7C21D02886E00AADA14 /* ViewController.swift in Sources */,
 				BA1BD7C01D02886E00AADA14 /* AppDelegate.swift in Sources */,
-				BA1BD7C81D02886E00AADA14 /* Tan3DTouch.xcdatamodeld in Sources */,
+				BA6BA5E61D02CF4C005DDC05 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA1BD7C31D02886E00AADA14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA1BD7C41D02886E00AADA14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA1BD7CB1D02886E00AADA14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,21 +278,9 @@
 				BA1BD7D31D02886E00AADA14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BA1BD7C61D02886E00AADA14 /* Tan3DTouch.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BA1BD7C71D02886E00AADA14 /* Tan3DTouch.xcdatamodel */,
-			);
-			currentVersion = BA1BD7C71D02886E00AADA14 /* Tan3DTouch.xcdatamodel */;
-			path = Tan3DTouch.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BA1BD7B41D02886E00AADA14 /* Project object */;
 }

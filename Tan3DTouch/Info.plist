@@ -22,10 +22,35 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeSearch</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>点击可进行搜索</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>搜索</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>SEARCH</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeShare</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>点击可进行分享</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>分享</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>SHARE</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict/>
+		</dict>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
