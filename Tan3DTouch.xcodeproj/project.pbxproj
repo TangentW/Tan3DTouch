@@ -12,6 +12,8 @@
 		BA1BD7CA1D02886E00AADA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1BD7C91D02886E00AADA14 /* Assets.xcassets */; };
 		BA1BD7CD1D02886E00AADA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1BD7CB1D02886E00AADA14 /* LaunchScreen.storyboard */; };
 		BA6BA5E61D02CF4C005DDC05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BA5E51D02CF4C005DDC05 /* DetailViewController.swift */; };
+		BA6BA5E81D03250D005DDC05 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BA5E71D03250D005DDC05 /* TouchViewController.swift */; };
+		BA6BA5EA1D0325F5005DDC05 /* ResizeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6BA5E91D0325F5005DDC05 /* ResizeableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA1BD7CC1D02886E00AADA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1BD7CE1D02886E00AADA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6BA5E51D02CF4C005DDC05 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BA6BA5E71D03250D005DDC05 /* TouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		BA6BA5E91D0325F5005DDC05 /* ResizeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA1BD7C91D02886E00AADA14 /* Assets.xcassets */,
 				BA1BD7CB1D02886E00AADA14 /* LaunchScreen.storyboard */,
 				BA1BD7CE1D02886E00AADA14 /* Info.plist */,
+				BA6BA5E71D03250D005DDC05 /* TouchViewController.swift */,
+				BA6BA5E91D0325F5005DDC05 /* ResizeableView.swift */,
 			);
 			path = Tan3DTouch;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			files = (
 				BA1BD7C21D02886E00AADA14 /* ViewController.swift in Sources */,
 				BA1BD7C01D02886E00AADA14 /* AppDelegate.swift in Sources */,
+				BA6BA5E81D03250D005DDC05 /* TouchViewController.swift in Sources */,
 				BA6BA5E61D02CF4C005DDC05 /* DetailViewController.swift in Sources */,
+				BA6BA5EA1D0325F5005DDC05 /* ResizeableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

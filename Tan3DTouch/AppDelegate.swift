@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.rootViewController = UINavigationController(rootViewController: ViewController())
+//        self.window!.rootViewController = TouchViewController()  
         self.window!.makeKeyAndVisible()
         //  Setup ShortcutItems
         if let shortcutItems = application.shortcutItems where shortcutItems.isEmpty {
